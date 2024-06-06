@@ -1,6 +1,6 @@
 :root {
-  --primary-color: coral;
-  --secondary-color: rgba(0, 0, 0, 0.7);
+  --primary-color: rgb(62, 84, 163);
+  --secondary-color: rgb(240,244,244);
 
   /* typography */
   /* --font-family: "Poppins","sans-serif", */
@@ -21,4 +21,26 @@
   --font-base: 16px;
   --font-md: 24px;
   --font-lg: 32px;
+}
+
+.green-background{
+background-color: rgb(170,215,66);
+}
+.green-border{
+border: 1px solid rgb(170,215,66);
+
+}
+.green-font{
+color: rgb(170,215,66);
+}
+
+.blue-background{
+background-color: rgb(106,190,205);
+}
+.blue-border{
+border: 1px solid rgb(106,190,205);
+
+}
+.blue-font{
+color: rgb(106,190,205);
 }

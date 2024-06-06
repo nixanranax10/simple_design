@@ -1,0 +1,562 @@
+*{
+box-sizing: border-box;
+}
+body{
+padding: 0;
+margin: 0;
+
+}
+
+body{
+
+header{
+
+.top {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(62, 84, 163);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .suitcase {
+    height: 20px;
+    width: 20xp;
+    margin-right: 10px;
+    margin-bottom: 4px;
+  }
+
+  .hiring {
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+  }
+
+  .visit {
+    text-decoration: underline;
+  }
+}
+
+nav {
+  height: 80px;
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+
+  .nav-items {
+    margin-right: 80px;
+    display: flex;
+    list-style: none;
+  }
+
+  .nav-item {
+    margin-top: 28px;
+    padding: 0 15px;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .logo {
+    margin-left: 60px;
+    margin-top: 30px;
+    height: 50px;
+    width: 100px;
+
+    .front {
+      height: 35px;
+      width: 250px;
+    }
+  }
+
+  .github {
+    margin-top: 10px;
+  }
+  .git {
+    font-size: 14px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    font-weight: bolder;
+  }
+  .gittu {
+    margin-left: 5px;
+    border-radius: 20px;
+    height: 25px;
+    width: 25px;
+  }
+
+
+
+}
+.learning-title{
+display: flex;
+width: 100%;
+border: 1px solid rgb(194, 192, 192);
+height: 50px;
+font-weight: bold;
+font-size: var(--font-base);
+font-family: Arial, Helvetica, sans-serif;
+padding-left: 90px;
+align-items: center;
+
+
+}
+.challenges-i{
+
+height: 80px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+padding-right: 150px;
+font-weight: bold;
+
+                .i{
+                background-color: var(--primary-color);
+                height: 16px;
+                width: 15px;
+                margin-left: 5px;
+                
+                border-radius: 10px;    
+                color: white;       
+                font-size: 12px;
+text-align: center;
+padding-top: 2px;
+
+                    }   
+
+}
+
+}
+
+
+
+main{
+.challenges-first{
+display: flex;
+gap: 30px;
+
+justify-content: center;
+}
+.challenges{
+
+display: flex;
+margin-bottom: 20px;
+
+  
+ .challenges-inner{
+        height: 100%;
+       
+        
+      
+        display: flex;
+
+
+            .challenges-div{
+          
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            height: 540px;
+            border: 1px solid rgb(214, 212, 212);
+            border-radius: 15px;
+
+                }
+           
+                .challenges-upper{
+                      width: 100%;
+                     background-image: url("https://www.frontendmentor.io/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdz209s6jk%2Fimage%2Fupload%2Fv1715865268%2FChallenges%2Fjntqqksdinxs3qy8uyqb.jpg&w=384&q=75");
+                          background-size: auto;
+                          border-radius: 15px;
+                      .challenges-btn{
+                          margin-left: 330px;
+                          margin-top: 10px;
+                          width: 60px;
+                          background-color: red;
+                          border-radius: 18px;
+                         padding: 6px 0;
+                            font-size: 12px;
+                            text-align: center;
+                              font-weight: bold;  
+                                color: white;
+                                  }
+
+                          }
+
+                  .challenges-lower{
+                            display: flex;
+                              gap: 15px;
+                            flex-direction: column;
+                            margin-left: 30px;
+                            margin-right: 20px;
+
+                              .challenges-lower-1{
+                                  font-size: 24px;
+                                  margin-top: 20px;
+                                            }
+                            .challenges-lower-2{
+                                      
+                                      display: flex;  
+                                      gap: 10px;
+
+                                    .html{
+                                        font-weight: bold;
+                                          color: rgb(106,199,219);
+                                        }
+                                    .CSS{
+                                              font-weight: bold;
+                                                color: rgb(108,99,165);
+                                          }
+
+                                      .JS{
+                                                font-weight: bold;
+                                                    color: rgb(210,129,184);
+                                        }
+                                      .newbie{
+                            display: flex;
+                            align-items: center;
+                            margin-top: -6px;
+                            width: auto;
+                            height: 26px;
+                               margin-left: 115px;
+                            border-radius: 5px;
+
+                                            .newbie-1{
+                                                    color: white;
+                                                    width: 30px;
+                                                    height: 100%;
+                                                   display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    padding: 2px;
+                                                    font-weight: bold;
+                                                    }
+
+                                            .newbie-right{
+                                                        
+                                                          width: 100%;
+                                                           height: 100%;               
+                                                         display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                        font-weight: bold;
+                                                        font-size: 12px;
+
+                                                    }
+
+
+                            }
+
+                                
+                                      }
+                                .challenges-lower-3{
+                                    font-size: 16px;
+                                    margin-top: 12px;
+                                    color: gray;
+                                      }
+
+                              }
+
+
+            }
+
+}
+
+.challenges-discord{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 50px;
+margin: 80px 80px;
+border-radius: 10px;
+background-color: rgb(62,84,163);
+height: 70vh;
+
+.challenges-discord-2{
+font-size: 15px;
+font-weight: bold;
+color: white;
+}
+.challenges-discord-3{
+font-size: 26px;
+width: 80%;
+text-align: center;
+color: white;
+
+
+
+}
+
+
+.git {
+        font-size: 16px;
+        border: none;
+        padding: 16px 35px;
+        border-radius: 30px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: italic;
+        font-weight: bolder;
+        color: rgb(62,84,163);
+      }
+
+}
+
+
+}
+
+
+
+
+}
+footer{
+.layer-15{
+      width: 100%;
+      height: 50vh; 
+          .upper-15{
+                width: 100%;
+                  height: 120px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .logo-15{
+
+                    margin-left: 60px;
+                          }
+            .upper-15-right{
+width: 200px;
+display: flex;
+padding: 20px;
+gap: 15px;
+margin-right: 20px;
+
+                    .discord{
+                          height: 30px;
+                            width: 30px;
+                            
+                            .discordd{
+                                  height: 100%;
+                                  width: 100%;
+                                
+
+
+                                }
+
+                          }
+
+
+               }
+
+      }
+          .lower-15{
+                  width: 100%;
+                 
+                  display: flex;
+                  align-items: center;
+               
+
+                        .lower-15-stay{
+                              margin-left: 30px;
+                             width: 40%;
+                            height: 100%;
+
+                                  .stay{
+                                    color: rgb(62, 84, 163) ;
+                                    font-size: 24px;
+                                }
+                              .news{
+                                  margin-top: 20px;
+                                  font-size: 16px;
+                                  color: gray;
+                                  width: 50%;
+                                  }
+                        .lower-15-box{
+                                margin-top: 30px;
+                                display: flex;
+                                gap: 80px;
+
+                                  .subscribe{
+                                      width: 200px;
+
+                                        .subs{
+                                              width: 150px;
+                                              padding: 8px 20px;
+                                              color: white;
+                                              background-color: red;
+                                              border: none;
+                                              font-style: italic;
+                                              font-weight: bold;
+                                              border-radius: 20px;
+                                          }
+                                        }
+
+                                }
+                        }
+
+
+              .lower-15-right{
+                          width: 60%;
+                          height: 100%;
+                         display: flex;
+                        gap: 120px;
+
+                          .mentor-1{
+                              font-size: 14px;
+                              font-weight: bold;
+                              font-family: Arial, Helvetica, sans-serif;
+                              margin-bottom: 20px;
+                              }
+                            .mentor-item{
+                                    font-size: 14px;
+                                    margin-top: 10px;
+                              }
+                            
+                      }
+
+}
+
+}
+ 
+
+}
+
+.layer-15{
+      width: 100%;
+      height: 50vh; 
+          .upper-15{
+                width: 100%;
+                  height: 120px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-between;
+                  .logo-15{
+
+                    margin-left: 60px;
+                          }
+            .upper-15-right{
+width: 200px;
+display: flex;
+padding: 20px;
+gap: 15px;
+margin-right: 20px;
+
+                    .discord{
+                          height: 30px;
+                            width: 30px;
+                            
+                            .discordd{
+                                  height: 100%;
+                                  width: 100%;
+                                
+
+
+                                }
+
+                          }
+
+
+               }
+
+      }
+          .lower-15{
+                  width: 100%;
+                 
+                  display: flex;
+                  align-items: center;
+               
+
+                        .lower-15-stay{
+                              margin-left: 30px;
+                             width: 40%;
+                            height: 100%;
+
+                                  .stay{
+                                    color: rgb(62, 84, 163) ;
+                                    font-size: 24px;
+                                }
+                              .news{
+                                  margin-top: 20px;
+                                  font-size: 16px;
+                                  color: gray;
+                                  width: 50%;
+                                  }
+                        .lower-15-box{
+                                margin-top: 30px;
+                                display: flex;
+                                gap: 80px;
+
+                                  .subscribe{
+                                      width: 200px;
+
+                                        .subs{
+                                              width: 150px;
+                                              padding: 8px 20px;
+                                              color: white;
+                                              background-color: red;
+                                              border: none;
+                                              font-style: italic;
+                                              font-weight: bold;
+                                              border-radius: 20px;
+                                          }
+                                        }
+
+                                }
+                        }
+
+
+              .lower-15-right{
+                          width: 60%;
+                          height: 100%;
+                         display: flex;
+                        gap: 120px;
+
+                          .mentor-1{
+                              font-size: 14px;
+                              font-weight: bold;
+                              font-family: Arial, Helvetica, sans-serif;
+                              margin-bottom: 20px;
+                              }
+                            .mentor-item{
+                                    font-size: 14px;
+                                    margin-top: 10px;
+                              }
+                            
+                      }
+
+}
+
+}
+
+ .last{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+margin-bottom: 10px;
+
+        .foot-mentor{
+                   color: gray;
+                    margin-left: 30px;     
+              }
+            .footer-items{
+                  display: flex;
+                  gap: 30px;
+                  color: gray;
+                  margin-right: 50px;
+                  }
+  }
+
+
+
